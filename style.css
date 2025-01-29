@@ -1,0 +1,317 @@
+/* CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Macondo&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Macondo&family=Oswald:wght@200..700&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jersey+10&family=Macondo&family=Oswald:wght@200..700&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=DM+Serif+Text:ital@0;1&family=Jersey+10&family=Macondo&family=Oswald:wght@200..700&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+
+*{ 
+margin: 0;
+padding: 0;
+}
+
+header {
+    width: 100vw;
+    position: relative;
+    background-image: url(https://img.freepik.com/premium-vector/collection-golden-metallic-shopping-carts-shopping-bags-are-displayed-dark-blue-table_1174726-8792.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.upper1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    position: relative;
+}
+
+.upper1 .image img {
+    /* margin: 2vw; */
+    width: 30vw;
+}
+
+.upper1 .button {
+    position: absolute;
+    right: 1vw;
+}
+
+.upper1 .button ul {
+    margin: 0;
+    display: flex;
+}
+
+.upper1 .button ul li {
+    border-radius: 1vw;
+    color: white;
+    font-weight: bold;
+    padding: 1vw;
+    font-size: 1.5vw;
+    border: 2px solid gray;
+    margin: 0.5vw;
+    list-style-type: none;
+}
+
+.upper1 .button ul li:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.middle1 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vw;
+}
+
+.middle1 p {
+    margin-bottom: 2vw;
+    font-family: "Playwrite VN", serif;
+
+}
+
+.middle1 input {
+    padding: .5vw;
+}
+
+.middle1 button {
+    padding: .5vw;
+    border-radius: 3px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.middle1 button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.lower1 {
+    margin-top: 10vw;
+}
+
+.lower1 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower1 ul li {
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0.5vw;
+    font-size: 2vw;
+    border-radius: 2px;
+    color: aliceblue;
+    font-family: "Macondo", serif;
+}
+
+.lower1 ul li:hover {
+    color: white;
+    background-color: rgb(23, 22, 22);
+}
+
+.greystrip{
+    background-color: grey;
+}
+
+
+.container {
+    width: 30vw;
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+
+.container .image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.container .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    font-size: 2vw;
+    border-radius: 4px;
+    font-family: "Oswald", serif;
+    background-color: whitesmoke;
+    transition: transform 0.3s ease;
+}
+
+.container .text:hover{
+    transform: scale(1.1);
+
+}
+
+main{
+    background-color: #EFEAE4;
+
+}
+.container .text a{
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: "Oswald", serif;
+}
+.strip1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.strip2{
+    display: flex;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.strip3{
+    display: flex;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.strip1 .one .image img{
+    margin-right: 1vw;
+}
+.strip1 .two .image img{
+    margin-top: 2.5vw;
+
+}
+.strip2 .one .image img{
+    margin-top: 1.5vw;
+}
+
+.strip3 .two .image img{
+    margin-top: 1.5vw;
+}
+
+.strip3 .three .image img{
+    margin-top: 1.5vw;
+}
+
+.strip3 .one .image img{
+    margin-top: 2vw;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container4 .box{
+    width: 70vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+    padding: 1vw;
+    background-color: gray;
+
+}
+
+.container4 .box p{
+    font-size: 2vw;
+}
+
+.container4{
+}
+
+.container4 .heading p{
+    font-family: "Protest Guerrilla", serif;
+}
+
+.container4 .last{
+    margin-bottom: 4vw;
+}
+.conclusion{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    background-color: black;
+}
+
+.conclusion p{
+    font-family: "Concert One", serif;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: beige;
+    /* width: 20vw; */
+    margin: 2vw;
+    border-radius: 5px;
+}
+.card .upper .image img{
+    width: 4vw;
+    padding-left: 1vw;
+}
+
+.card .upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .upper .text{
+    font-size: 1vw;
+    padding-right: 1vw;
+}
+
+.card .strip{
+    background-color: grey;
+    height: 0.05vh;
+}
+
+.card .lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 2vw;
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+    font-size: 5vw;
+    font-family: "Protest Guerrilla", serif;
+
+}
+
+.reviews .first{
+    margin-left: 2vw;
+}
+
+
+.card .lower p{
+
+}
